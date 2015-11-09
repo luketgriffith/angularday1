@@ -5,7 +5,7 @@ let MyController= function($scope){
   $scope.likePress= function(){
     $('.fa').animate({
       right: '+=50'
-    })
+    }, 1000)
     $scope.likes = $scope.likes + 1;
     if($scope.likes === 1){
       $scope.taco= 'Lovie';
